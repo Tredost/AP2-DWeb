@@ -139,7 +139,6 @@ function button3() {
 
 function buttonDetalhes(id) {
 
-    detalhesContainer.innerHTML = '';
     document.getElementById('detalhes-container').style.display = 'block';
     fetch(`https://botafogo-atletas.mange.li/${id}`)
         .then(response => response.json())
