@@ -37,7 +37,7 @@ function login() {
         document.getElementById('atletas-container').style.display = 'none';
         document.getElementById('detalhes-container').style.display = 'none';
     } else {
-        alert('Usuário ou senha inválido!');
+        document.getElementById('login').textContent = 'Usuário ou senha inválido!';
     }
 }
 
@@ -70,7 +70,7 @@ function selecionarOpcao() {
     }
 }
 
-selecaoSeletor.addEventListener('change', selecionarOpcao); 
+selecaoSeletor.addEventListener('change', selecionarOpcao);
 
 
 function md5(input) {
