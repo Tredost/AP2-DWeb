@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="/escudo.png" sizes="16x16">
+  <title>Elenco Botafogo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="CryptoJS v3.1.2/rollups/md5.js"></script>
+</head>
+<body>
+
+  <div id="login-container">
+    <h1>Login</h1>
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Usuário: Mangeli" required>
+      <input type="password" id="password" placeholder="Senha: 123" required>
+      <button type="button" onclick="login()">Entrar</button>
+    </form>
+  </div>
+
+  <div id="main-container">
+    <div id="selecao-botoes">
+      <h1>Elenco</h1>
+      <button onclick="button1()">Masculino</button>
+      <button onclick="button2()">Feminino</button>
+      <button onclick="button3()">Ambos</button>
+      <button onclick="logout()" class="red-text-button">Sair</button>
+    </div>
+    <div id="selecao-seletor-div">
+      <h1>Elenco</h1>
+      <select id="selecao-seletor">
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="ambos">Ambos</option>
+      </select>
+      <button onclick="logout()" class="red-text-button">Sair</button>
+    </div>
+  </div>
+
+  <div id="atletas-container"></div>
+  <div id="detalhes-container"></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
