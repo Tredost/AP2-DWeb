@@ -59,25 +59,25 @@
 
     #main-container button {
         display: inline;
-        width: 90%; /* Largura fixa para todos os botões */
-        margin-top: 6px; /* Ajuste conforme necessário */
-        line-height: 30px; /* Ajuste conforme necessário para centralizar verticalmente o texto */
+        width: 90%; 
+        margin-top: 6px;
+        line-height: 30px;
         border-radius: 10px;
     }
 
     #main-container select {
         height: 50px;
-        width: 90%; /* Largura fixa para todos os botões */
-        margin-bottom: 5px; /* Ajuste conforme necessário */
-        line-height: 30px; /* Ajuste conforme necessário para centralizar verticalmente o texto */
+        width: 90%;
+        margin-bottom: 5px;
+        line-height: 30px;
         border-radius: 10px;
     }
 
     #main-container option {
         display: block;
-        width: 100%; /* Largura fixa para todos os botões */
-        margin-bottom: 5px; /* Ajuste conforme necessário */
-        line-height: 30px; /* Ajuste conforme necessário para centralizar verticalmente o texto */
+        width: 100%;
+        margin-bottom: 5px;
+        line-height: 30px;
         border-radius: 10px;
     }
 
