@@ -270,10 +270,9 @@
     }
 
     #atletas-container {
-        display: grid;
+        margin-top: 160px;
         width: 100%;
-        height: 80%;
-        max-width: 1200px;
+        height: 100%;
     }
 
     #main-container {
