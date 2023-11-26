@@ -6,7 +6,7 @@ const loginContainer = document.getElementById('login-container');
     const mainContainer = document.getElementById('main-container');
     const atletasContainer = document.getElementById('atletas-container');
     const detalhesContainer = document.getElementById('detalhes-container');
-    const selecaoSeletor = document.getElementById('selecao-seletor'); //aquii
+    const selecaoSeletor = document.getElementById('selecao-seletor');
 
 document.addEventListener('DOMContentLoaded', function () {
     const isLoggedIn = false;
@@ -66,11 +66,11 @@ function selecionarOpcao() {
             logout();
             break;
         default:
-            // Lógica padrão, se necessário
+
     }
 }
 
-selecaoSeletor.addEventListener('change', selecionarOpcao); //aquiii gpt
+selecaoSeletor.addEventListener('change', selecionarOpcao); 
 
 
 function md5(input) {
