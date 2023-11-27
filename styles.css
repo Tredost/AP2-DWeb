@@ -137,8 +137,7 @@
     }
 
     #detalhes-container img {
-        max-width: 100%;
-        height: auto;
+        height: 30%;
         margin-top: 8px;
         border-radius: 10px;
         display: block;
@@ -269,6 +268,15 @@
 }
 
 @media (min-width: 1025px) {
+    #login-container {
+        margin-left: 44%;
+        text-align: center;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
     body {
         font-family: Arial, sans-serif;
         margin: 0;
