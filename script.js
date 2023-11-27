@@ -31,7 +31,6 @@ function login() {
     const user = users.find(u => u.username === usernameInput.value && u.password === md5(passwordInput.value));
 
     if (user) {
-        localStorage.setItem('autorizado','true')
         document.getElementById('login-container').style.display = 'none';
         document.getElementById('main-container').style.display = 'block';
         document.getElementById('atletas-container').style.display = 'none';
