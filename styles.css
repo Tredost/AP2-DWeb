@@ -84,8 +84,10 @@
     }
 
     #atletas-container {
+        flex-wrap: wrap;
         height: 100%;
         margin-top: 450px;
+        justify-content: center;
 
     }
 
@@ -107,7 +109,7 @@
     }
 
     .cartao {
-        width: 280px;
+        width: calc(100% - 100px);
         border: 1px solid #ccc;
         padding: 10px;
         margin: 20px;
