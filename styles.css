@@ -169,9 +169,12 @@
     }
 
     #atletas-container {
+        flex-wrap: wrap;
+        justify-content: center;
         height: 100%;
         margin-top: 160px;
         margin-left: 0.1%;
+
     }
 
     #selecao-seletor-div {
@@ -211,14 +214,18 @@
     }
 
     #detalhes-container {
+        left: 23%;
         position: fixed;
-        height: 100%;
-        right: 0px;
-        top: 60px;
+        height: 70%;
+        top: 100px;
         width: 52%;
         max-width: 500px;
         text-align: left;
         padding: 20px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     #detalhes-container img {
@@ -232,7 +239,7 @@
     }
 
     .cartao {
-        width: 280px;
+        width: calc(50% - 100px);
         border: 1px solid #ccc;
         padding: 10px;
         margin: 20px;
@@ -274,6 +281,7 @@
     }
 
     #atletas-container {
+        margin-left: 0px;
         flex-wrap: wrap;
         margin-top: 160px;
         width: 100%;
@@ -323,6 +331,7 @@
         top: 100px;
         width: 370px;
         text-align: left;
+        border: 1px solid #ccc;
         background-color: #fff;
         padding: 20px;
         border-radius: 10px;
