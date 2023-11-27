@@ -274,14 +274,14 @@
         margin: 0;
         padding: 0;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         height: 100vh;
         background-color: #f4f4f4;
     }
 
     #atletas-container {
-        margin-left: 0px;
+        margin-left: 3%;
         flex-wrap: wrap;
         margin-top: 160px;
         width: 100%;
