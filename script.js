@@ -80,7 +80,7 @@ function md5(input) {
 function carregarAtletas(endpoint) {
     document.getElementById('login-container').style.display = 'none';
     document.getElementById('main-container').style.display = 'block';
-    document.getElementById('atletas-container').style.display = 'block';
+    document.getElementById('atletas-container').style.display = 'flex';
 
     atletasContainer.innerHTML = '';
 
@@ -120,7 +120,7 @@ function cria_cartao(entrada) {
 function fecharDetalhes() {
     document.getElementById('login-container').style.display = 'none';
     document.getElementById('main-container').style.display = 'block';
-    document.getElementById('atletas-container').style.display = 'block';
+    document.getElementById('atletas-container').style.display = 'flex';
     document.getElementById('detalhes-container').style.display = 'none';
 }
 
